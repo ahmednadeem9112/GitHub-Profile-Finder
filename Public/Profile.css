@@ -52,14 +52,45 @@ cursor: pointer;
 p{
     font-size: 25px;
 }
-
-
-
-
-
-
-
-
+.total-repo{
+    display: flex;
+    grid-template-rows: repeat(1,1fr);
+}
+.repos-area{
+padding-left: 560px;
+padding-top: 100px;
+}
+.repo-list{
+display: flex;
+margin-bottom: 30px;
+font-weight: 400 ;
+font-size: 16px ;
+}
+.repositories{
+width: 100%;
+display: flex;
+}
+a{
+    flex: 1 0 auto;
+    margin-bottom: 22px;
+    font-size: 18px;
+    text-decoration: none;
+    padding-top: 10px;
+    text-align: center;
+}
+p{
+    flex: 1 0 auto;
+margin-top: 45px;
+    font-size: 22px;
+    margin-right: 20px;
+}
+.total-repo{
+background-color: #fff;
+border: 1px solid #e1e4e8;
+border-radius: 7px;
+width:770px;
+height: 150px
+}
 
 
 
