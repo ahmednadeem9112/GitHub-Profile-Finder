@@ -4,15 +4,16 @@ padding: 0;
 background-color: #fff;
 }
 .Profile-Box{
-width: 400px;
+width: 700px;
 margin: 0 auto;
-background-color: #F6FBF5;
+background-color: #CDE6FC;
 height: 450px;
 border-radius: 5px;
 border: 2px solid black;
-text-align: center;
 align-content: center;
 padding-top: 20px;
+text-align: center;
+padding-right: 50px;
 }
 .Profile-Image{
     display: block;
@@ -20,10 +21,13 @@ padding-top: 20px;
     margin: 10px auto;
     width: 200px;
     border: 2px solid #e7e7e7;
+    
     }
 .outer-box{
-padding-right: 50rem;
+padding-right: 45rem;
+padding-left: 300px;
 padding-top:40px ;
+
 }
 .search-profile{
 padding-left: 550px;
@@ -50,26 +54,13 @@ border-radius: 6px;
 cursor: pointer;
 }
 p{
-    font-size: 25px;
+    font-size: 30px;
+
 }
-.total-repo{
-    display: flex;
-    grid-template-rows: repeat(1,1fr);
-}
-.repos-area{
-padding-left: 560px;
-padding-top: 100px;
-}
-.repo-list{
-display: flex;
-margin-bottom: 30px;
-font-weight: 400 ;
-font-size: 16px ;
-}
-.repositories{
-width: 100%;
-display: flex;
-}
+
+
+
+
 a{
     flex: 1 0 auto;
     margin-bottom: 22px;
@@ -78,19 +69,12 @@ a{
     padding-top: 10px;
     text-align: center;
 }
-p{
-    flex: 1 0 auto;
-margin-top: 45px;
-    font-size: 22px;
-    margin-right: 20px;
-}
-.total-repo{
-background-color: #fff;
-border: 1px solid #e1e4e8;
-border-radius: 7px;
-width:770px;
-height: 150px
-}
 
+
+h2{
+    text-align: center;
+    align-content: center;
+
+}
 
 

@@ -17,67 +17,16 @@ failResponse => {
 );
 profile.push(url);
 let result = await Promise.all(profile);
-console.log(result[0]);
+console.log(result[0].repos_url);
 
 DisplayArea.innerHTML = `<div id="Profile-Box" class="Profile-Box">
 <img src="${result[0].avatar_url}" class="Profile-Image" id="Profile-Image">
 <h2>${result[0].name}</h2> 
-<p>${result[0].login}</p>
+<p>${result[0].login.toUpperCase()}</p>
 <h2>FOLLOWERS:${result[0].followers}</h2>
 <h2>FOLLOWING:${result[0].following}</h2>
-    </div>
-    
-    <div class="repos-area" id="repos-area">
-    <!--NOw building the child element-->
-<div class="repo-list" id="repo-list">
-<h2>POPULAR REPOSITORY 🎉🎉</h2>
-</div>
-<!--NOW BUILDING THE CHILD ELEMENT IN THE DOM-->
-
-<div class="total-repo" id="total-repo">
-<div class="repositories" id="repositories">
-<a href="#">
-  <span title="#">TO DO LIST</span>  
-</a>
-<p>A TO DO LIST WHICH ALLOWS YOUR TO TRACK DAILY HABBITS</p>
-</div>
-
-<!--A SECOND REPOSITORY-->
-<div class="total-repo-2" id="total-repo">
-<div class="repositories-2" id="repositories">
-<a href="#">
-  <span title="#">TO DO LIST</span>  
-</a>
-<p>A TO DO LIST WHICH ALLOWS YOUR TO TRACK DAILY HABBITS</p>
-</div>
+    </div>    
 
 
-
-
-
-</div>
-
-
-
-
-</div>
-
-
-
-    
-    
-    
-    
-    
-    
-    `
-
-
-
-
-
-
+`
 }
-
-
-
